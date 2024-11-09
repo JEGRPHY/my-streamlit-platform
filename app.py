@@ -23,8 +23,10 @@ with tab2:
     Here are some of my favorite YouTube videos:
     
     1. [MAP OF PHYSICS](https://www.youtube.com/watch?v=ZihywtixUYo&pp=ygUObWFwIG9mIHBoeXNpY3M%3D)
-    2. [ESCAPE EARTH](https://www.youtube.com/watch?v=gCA5pU0RxK0&pp=ygUUZXNjYXBlIEVBUlRIIE1PUkdBTiA%3D)
-    3. [HISTORY OF THE UNIVERSE](https://www.youtube.com/watch?v=7KYTJ8tBoZ8&pp=ygUsaGlzdG9yeSBvZiB0aGUgdW5pdmVyc2UgbmVpbCBkZWdyYXNzZSB0eXNvbiA%3D)
+    2. [MAP OF SCIENCE](https://www.youtube.com/watch?v=ohyai6GIRZg&pp=ygUObWFwIG9mIHNjaWVuY2U%3D)
+    3. [MAP OF BLACK HOLE](https://www.youtube.com/watch?v=Wf0uxjWGwPk&pp=ygUSbWFwIG9mIGJsYWNrIGhvbGVz)
+    4. [ESCAPE EARTH](https://www.youtube.com/watch?v=gCA5pU0RxK0&pp=ygUUZXNjYXBlIEVBUlRIIE1PUkdBTiA%3D)
+    5. [HISTORY OF THE UNIVERSE](https://www.youtube.com/watch?v=7KYTJ8tBoZ8&pp=ygUsaGlzdG9yeSBvZiB0aGUgdW5pdmVyc2UgbmVpbCBkZWdyYXNzZSB0eXNvbiA%3D)
     """)
 
 # Simulations Page
@@ -33,3 +35,8 @@ with tab3:
     st.markdown("This page will contain interactive simulations in the future.")
     st.markdown("Stay tuned for updates!")
 
+# Contact Me Page
+with tab4:
+    st.title("Contact Me")
+    st.markdown("jegrjebar@gmail.com")
+    st.markdown("Stay tuned for updates!")
