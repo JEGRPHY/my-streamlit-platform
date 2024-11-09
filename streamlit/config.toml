@@ -1,1 +1,7 @@
+[theme]
+base = "light"  # Options: "light", "dark"
+primaryColor = "#4CAF50"  # Change to your preferred color
+backgroundColor = "#F0F0F0"
+textColor = "#333333"
+font = "sans serif"  # Options: "sans serif", "serif", "monospace"
 
