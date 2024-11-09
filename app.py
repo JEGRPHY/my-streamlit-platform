@@ -1,4 +1,6 @@
 import streamlit as st
+import numpy as np
+import matplotlib.pyplot as plt
 
 # Set up the main page tabs
 st.set_page_config(page_title="My Personal Platform", layout="wide")
@@ -18,7 +20,7 @@ with tab1:
 
 # YouTube Videos Page
 with tab2:
-    st.title(" YouTube Videos")
+    st.title("YouTube Videos")
     st.markdown("""
     Here are some of my favorite YouTube videos:
     
@@ -32,11 +34,43 @@ with tab2:
 # Simulations Page
 with tab3:
     st.title("Simulations")
-    st.markdown("This page will contain interactive simulations in the future.")
-    st.markdown("Stay tuned for updates!")
+
+    # Sub-tabs for different simulations
+    sim_tab1, sim_tab2 = st.tabs(["Sine Wave Simulation", "Quadratic Equation Simulation"])
+
+    # Sine Wave Simulation
+    with sim_tab1:
+        st.header("Simple Sine Wave Simulation")
+        freq = st.slider("Select the frequency of the sine wave", 1, 20, 5)
+        x = np.linspace(0, 2 * np.pi, 500)
+        y = np.sin(freq * x)
+
+        fig, ax = plt.subplots()
+        ax.plot(x, y)
+        ax.set_title(f"Sine Wave with Frequency {freq}")
+        ax.set_xlabel("X-axis")
+        ax.set_ylabel("Y-axis")
+        st.pyplot(fig)
+
+    # Quadratic Equation Simulation
+    with sim_tab2:
+        st.header("Quadratic Equation Simulation")
+        a = st.slider("Select coefficient 'a'", -10, 10, 1)
+        b = st.slider("Select coefficient 'b'", -20, 20, 0)
+        c = st.slider("Select coefficient 'c'", -30, 30, 0)
+
+        x = np.linspace(-10, 10, 500)
+        y = a * x**2 + b * x + c
+
+        fig, ax = plt.subplots()
+        ax.plot(x, y)
+        ax.set_title(f"Quadratic Equation: y = {a}x² + {b}x + {c}")
+        ax.set_xlabel("X-axis")
+        ax.set_ylabel("Y-axis")
+        st.pyplot(fig)
 
 # Contact Me Page
 with tab4:
     st.title("Contact Me")
-    st.markdown("jegrjebar@gmail.com")
+    st.markdown("Email: jegrjebar@gmail.com")
     st.markdown("Stay tuned for updates!")
