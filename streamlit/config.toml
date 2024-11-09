@@ -4,4 +4,8 @@ primaryColor = "#4CAF50"  # Change to your preferred color
 backgroundColor = "#F0F0F0"
 textColor = "#333333"
 font = "sans serif"  # Options: "sans serif", "serif", "monospace"
+st.sidebar.title("Navigation")
+st.sidebar.markdown("Use the tabs above or select an option below:")
+
+option = st.sidebar.selectbox("Choose a page:", ["Profile", "YouTube Videos", "Simulations", "Contact Me"])
 
