@@ -1,4 +1,8 @@
 import streamlit as st
+
+# Set page configuration (MUST be the first Streamlit command)
+st.set_page_config(page_title="My Personal Platform", layout="wide")
+
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -18,9 +22,6 @@ def add_background_image():
 
 # Call the function to set the background image
 add_background_image()
-
-# Set up the main page tabs and configuration
-st.set_page_config(page_title="My Personal Platform", layout="wide")
 
 # Sidebar Navigation
 st.sidebar.title("Navigation")
