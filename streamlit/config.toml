@@ -1,5 +1,5 @@
 [theme]
-base = "light"  # Options: "light", "dark"
+base = "dark"  # Options: "light", "dark"
 primaryColor = "#4CAF50"  # Change to your preferred color
 backgroundColor = "#F0F0F0"
 textColor = "#333333"
