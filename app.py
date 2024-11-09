@@ -34,7 +34,7 @@ if page == "Profile":
 
     with col1:
         # Replace the image URL with the direct link to your uploaded photo
-        st.image("https://github.com/JEGRPHY/my-streamlit-platform/blob/main/albert-einstein-wrong-theory-of-relativity-flaws-gravity-new-physics-pulsars-1535474.jfif)
+st.image("https://github.com/JEGRPHY/my-streamlit-platform/blob/main/albert-einstein-wrong-theory-of-relativity-flaws-gravity-new-physics-pulsars-1535474.jfif")
         st.markdown("### Mr. JEGR JABBAR")
 
     with col2:
