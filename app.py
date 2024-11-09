@@ -22,9 +22,9 @@ with tab2:
     st.markdown("""
     Here are some of my favorite YouTube videos:
     
-    1. [Streamlit Basics](https://www.youtube.com/watch?v=ZihywtixUYo&pp=ygUObWFwIG9mIHBoeXNpY3M%3D)
-    2. [Python Programming](https://www.youtube.com/watch?v=gCA5pU0RxK0&pp=ygUUZXNjYXBlIEVBUlRIIE1PUkdBTiA%3D)
-    3. [Data Visualization](https://www.youtube.com/watch?v=7KYTJ8tBoZ8&pp=ygUsaGlzdG9yeSBvZiB0aGUgdW5pdmVyc2UgbmVpbCBkZWdyYXNzZSB0eXNvbiA%3D)
+    1. [MAP OF PHYSICS](https://www.youtube.com/watch?v=ZihywtixUYo&pp=ygUObWFwIG9mIHBoeXNpY3M%3D)
+    2. [ESCAPE EARTH](https://www.youtube.com/watch?v=gCA5pU0RxK0&pp=ygUUZXNjYXBlIEVBUlRIIE1PUkdBTiA%3D)
+    3. [HISTORY OF THE UNIVERSE](https://www.youtube.com/watch?v=7KYTJ8tBoZ8&pp=ygUsaGlzdG9yeSBvZiB0aGUgdW5pdmVyc2UgbmVpbCBkZWdyYXNzZSB0eXNvbiA%3D)
     """)
 
 # Simulations Page
