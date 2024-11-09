@@ -1,10 +1,9 @@
 import streamlit as st
+import numpy as np
+import matplotlib.pyplot as plt
 
 # Set page configuration (MUST be the first Streamlit command)
 st.set_page_config(page_title="My Personal Platform", layout="wide")
-
-import numpy as np
-import matplotlib.pyplot as plt
 
 # Function to add a background image
 def add_background_image():
@@ -33,8 +32,8 @@ if page == "Profile":
     col1, col2 = st.columns(2)
 
     with col1:
-        # Replace the image URL with the direct link to your uploaded photo
-st.image("https://github.com/JEGRPHY/my-streamlit-platform/blob/main/albert-einstein-wrong-theory-of-relativity-flaws-gravity-new-physics-pulsars-1535474.jfif")
+        # Display your photo here (use the raw URL of the image from GitHub)
+        st.image("https://raw.githubusercontent.com/JEGRPHY/my-streamlit-platform/main/albert-einstein-wrong-theory-of-relativity-flaws-gravity-new-physics-pulsars-1535474.jfif", width=200)
         st.markdown("### Mr. JEGR JABBAR")
 
     with col2:
@@ -47,7 +46,6 @@ st.image("https://github.com/JEGRPHY/my-streamlit-platform/blob/main/albert-eins
             - **Hobbies**: Programming, teaching, and exploring new technologies
             """
         )
-
 
 # YouTube Videos Page
 elif page == "YouTube Videos":
